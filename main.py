@@ -11,6 +11,7 @@ loader = BaseLoaderClass(config)
 def start():
     loader.load_modules()
     loader.run_all_modules()
+    input("Press enter to stop...")
     loader.unload_modules()
 
 
